@@ -30,11 +30,11 @@ A powerful document-based chatbot that allows you to upload documents and ask qu
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/document-chatbot.git
-   cd document-chatbot
+   git clone https://github.com/TheCoderRajat07/Document-Chatbot.git
+   cd Document-Chatbot
    ```
 
-2. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it. (Completely Optional - I suggest not to create if you are not a developer)
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -45,7 +45,7 @@ A powerful document-based chatbot that allows you to upload documents and ask qu
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the root directory with your Google API key:
+4. Create a `.env` file in the root directory with your Google API key:(Use your own if using mine; it will be slow)
    ```
    GOOGLE_API_KEY=your_api_key_here
    ```
@@ -55,7 +55,7 @@ A powerful document-based chatbot that allows you to upload documents and ask qu
    python app.py
    ```
 
-6. Open your browser and navigate to `http://localhost:5000`
+6. Open your browser and navigate to `http://localhost:5000`(always choose 127:)
 
 ## Usage
 
@@ -75,13 +75,12 @@ For local deployment, simply run the Flask application:
 python app.py
 ```
 
-### GitHub Pages Deployment
+### Without FrontEnd or Website:
 
-The project is set up for GitHub Pages deployment. The root `index.html` file redirects to the static version of the application.
-
-1. Push your code to a GitHub repository
-2. Enable GitHub Pages in the repository settings
-3. Select the branch to deploy (usually `main` or `master`)
+run (this one will run on your console(terminal))
+```
+python main.py
+```
 
 ### Production Deployment
 
